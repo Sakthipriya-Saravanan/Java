@@ -43,7 +43,7 @@ public class Stack{
               
               case 4:
               System.out.print("Displaying Stack Element");
-              for(int i=top;i<=0;i--) {
+              for(int i=top;i>=0;i--) {
                   System.out.print(Stack[i]);
               }
               break;
